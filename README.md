@@ -5,7 +5,7 @@ A simple multi-page clothing store website with Eastern and Western wear pages, 
 
 ## 🚀 How to Run the Project
 
-You can view the live project directly here: https://ajwanaeem-an.github.io/ethnic-clothing-website/
+You can view the live project directly here: https://github.com/AjwaNaeem-an/ethnic_webpage
 
 Alternatively, to run it locally:
 1. Clone or download this repository.
