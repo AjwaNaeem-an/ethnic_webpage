@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ethnic - Home</title>
+
+    <link rel="stylesheet" href="webpageStyle.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Ethnic</h1>
+
+        <nav>
+            <a href="webpage.html">Home</a>
+            <a href="east.html">Eastern</a>
+            <a href="west.html">Western</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <div class="page-controls">
+            <button type="button" id="themeButton">
+                Toggle Light/Dark Mode
+            </button>
+        </div>
+
+
+        <!-- store status -->
+        <section class="status-section">
+
+            <p id="storeStatus"></p>
+
+        </section>
+
+
+        <h2>Our Categories</h2>
+
+        <section class="cards">
+
+            <article>
+
+                <h3>Eastern Wear</h3>
+
+                <p>
+                    Traditional and elegant eastern clothing
+                    for special occasions and everyday wear.
+                </p>
+
+                <a href="east.html">
+                    View Eastern Wear
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Western Wear</h3>
+
+                <p>
+                    Modern and stylish western clothing
+                    suitable for different occasions.
+                </p>
+
+                <a href="west.html">
+                    View Western Wear
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Casual Wear</h3>
+
+                <p>
+                    Comfortable and simple clothes
+                    for everyday use.
+                </p>
+
+                <a href="east.html">
+                    View Casual Wear
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- about section -->
+        <section class="about-section">
+
+            <h2>About Ethnic</h2>
+
+            <article>
+
+                <p>
+                    Ethnic brings together traditional and modern
+                    clothing styles for customers who enjoy
+                    comfortable and stylish fashion.
+                </p>
+
+                <p id="moreText">
+
+                    Our collection includes clothing suitable for
+                    everyday wear, family gatherings and special
+                    occasions. We focus on simple designs,
+                    comfortable materials and affordable prices.
+
+                </p>
+
+                <button type="button" id="readMoreButton">
+                    Read More
+                </button>
+
+            </article>
+
+        </section>
+
+
+        <!-- category filter -->
+        <section class="filter-section">
+
+            <h2>Explore Our Collection</h2>
+
+            <div class="filter-buttons">
+
+                <button
+                    type="button"
+                    class="filterButton"
+                    data-category="all">
+                    All
+                </button>
+
+                <button
+                    type="button"
+                    class="filterButton"
+                    data-category="eastern">
+                    Eastern
+                </button>
+
+                <button
+                    type="button"
+                    class="filterButton"
+                    data-category="western">
+                    Western
+                </button>
+
+                <button
+                    type="button"
+                    class="filterButton"
+                    data-category="casual">
+                    Casual
+                </button>
+
+            </div>
+
+
+            <ul id="categoryList">
+
+                <li data-category="eastern">
+                    <a href="east.html">Eastern Wear</a>
+                </li>
+
+                <li data-category="western">
+                    <a href="west.html">Western Wear</a>
+                </li>
+
+                <li data-category="casual">
+                    <a href="east.html">Casual Wear</a>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- product calculator -->
+        <section class="order-section">
+
+            <h2>Select Products</h2>
+
+            <p>
+                Select the clothes you want to add to your total.
+            </p>
+
+
+            <label class="order-item">
+
+                <input
+                    type="checkbox"
+                    class="productItem"
+                    data-price="5000">
+
+                Eastern Wear - PKR 5000
+
+            </label>
+
+
+            <label class="order-item">
+
+                <input
+                    type="checkbox"
+                    class="productItem"
+                    data-price="5000">
+
+                Western Wear - PKR 5000
+
+            </label>
+
+
+            <label class="order-item">
+
+                <input
+                    type="checkbox"
+                    class="productItem"
+                    data-price="3500">
+
+                Casual Wear - PKR 3500
+
+            </label>
+
+
+            <p id="total">
+                Total: PKR 0
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Ethnic
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
